@@ -1,7 +1,7 @@
 {
   "name": "movie-app-react",
   "private": true,
-  "homepage": "https://shubh-codes7.github.io/Movie-app-react/",
+  "homepage": "https://shubh-codes7.github.io/movie-app-react",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
